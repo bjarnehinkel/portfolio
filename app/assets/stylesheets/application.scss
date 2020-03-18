@@ -1,4 +1,7 @@
-@import 'components/component-index.scss';
+@import "bootstrap/scss/bootstrap";
+
 @import 'config/config-index';
+
+@import 'components/component-index.scss';
+
 @import 'pages';
-@import 'config/fonts';
