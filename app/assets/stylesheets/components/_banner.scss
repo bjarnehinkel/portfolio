@@ -8,6 +8,7 @@
 .intro-text{
   margin: 0;
   width: 60vw;
+  flex-grow: 1;
   h1{
     font-family: $heading-font;
     font-size: 45px;
