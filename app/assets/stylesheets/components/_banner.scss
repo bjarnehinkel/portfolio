@@ -8,10 +8,21 @@
 .intro-text{
   margin: 0;
   width: 60vw;
-  flex-grow: 1;
+  padding-top: 35vh;
   h1{
     font-family: $heading-font;
     font-size: 45px;
     font-weight: bold;
   }
 }
+
+.text-row{
+  flex-grow: 1;
+}
+ .continue-link{
+  padding-bottom: 10px;
+  transition: 0.3s;
+  &:hover{
+    font-size: 20px;
+  }
+ }
