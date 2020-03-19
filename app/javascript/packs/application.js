@@ -14,5 +14,11 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+// import anime from 'animejs/lib/anime.es.js';
 
-console.log('Hello World from Webpacker')
+// anime({
+//   targets: '.continue-link',
+//   perspective: 20,
+//   autoplay: true,
+//   duration: 5000
+// });
