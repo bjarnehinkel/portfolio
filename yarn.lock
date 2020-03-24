@@ -1050,6 +1050,11 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
+animations.js@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/animations.js/-/animations.js-1.0.7.tgz#4af692ec95cda3d8d34c851e140c4607ead2c33d"
+  integrity sha512-QKlfLKOuGO7mxN/C5gArLDm/O2riNgWu2cLXAFE5bGArHtHdbK44WH+wdnmW7Au9KGejAuo3snptV9riNsYO4g==
+
 animejs@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/animejs/-/animejs-3.1.0.tgz#748a90fc1d4bef3efed64508af9a6a82babf5c47"

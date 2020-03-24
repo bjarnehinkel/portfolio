@@ -1,3 +1,5 @@
+import { animations } from "animations.js"
+
 const card = document.querySelector('.plan-your-night')
 const heading = document.querySelector('.planyournight-heading')
 const description = document.querySelector('.hover-content')
