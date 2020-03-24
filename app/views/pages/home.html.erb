@@ -1,8 +1,12 @@
 <div class="banner d-flex align-items-center justify-content-center">
   <div class="banner-content d-flex flex-column h-100">
+    <div class="row align-items-center justify-content-center logo">
+      <%= image_tag('logo.png') %>
+    </div>
     <div class="row text-row">
       <div class="intro-text col-12">
-        <h1>Hi, I'm Bjarne. I design and develop web-pages and web-apps, back- to front-end</h1>
+        <h1>Bjarne Hinkel - your full-stack developer</h1>
+        <p>I code webapps and webpages with modern and minimalistic design</p>
       </div>
     </div>
     <div class="row">
@@ -17,6 +21,38 @@
 </div>
 <div class="container whole-page">
   <div id="info-anchor"></div>
-  <div class="info-text">
+  <div class="info-text h-100">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="skills-header">What do I offer?</h1>
+      </div>
+    </div>
+    <div class="row h-100 align-items-start">
+      <div class="col-md-4 col-xs-12">
+        <div class="content d-flex flex-column align-items-center">
+          <%= render 'components/full-stack-card' %>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="content d-flex flex-column align-items-center">
+          <%= render 'components/web-pages-card' %>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="content d-flex flex-column align-items-center">
+          <%= render 'components/web-apps-card' %>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="past-projects-header">My past Projects</h1>
+      </div>
+    </div>
+    <div class="row cards">
+      <div class="col-md-4 col-xs-12 p-0">
+        <%= render 'components/plan-your-night', class:'plan-your-night' %>
+      </div>
+    </div>
   </div>
 </div>

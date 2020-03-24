@@ -1,0 +1,65 @@
+.past-projects-header{
+  color: white;
+  margin-top: 25px;
+}
+
+.cards{
+  margin: 25px 0;
+}
+
+.project-card{
+  border-radius: 10px;
+  height: 250px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.plan-your-night{
+  background-image: linear-gradient(46deg, rgba(83,43,140,0.5), rgba(83,43,140,0.5)), asset_url(plan-your-night);
+  background-size: cover;
+  background-position: center;
+  h1{
+    font-family: $heading-font;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+  }
+  p{
+    font-family: $heading-font;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+.hidden{
+  display: none;
+}
+
+.visit-button{
+  text-align: center;
+  color: white;
+  border: 2px solid #6D35BA;
+  border-radius: 20px;
+  transition: 0.3s;
+  &:hover{
+    background-color: #6D35BA;
+  }
+  a{
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+.content-organiser{
+  background-color: #280060;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}

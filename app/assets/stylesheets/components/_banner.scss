@@ -7,22 +7,49 @@
 
 .intro-text{
   margin: 0;
-  width: 60vw;
-  padding-top: 35vh;
+  width: 65vw;
+  text-align: center;
   h1{
     font-family: $heading-font;
     font-size: 45px;
     font-weight: bold;
   }
+  p{
+    font-family: $heading-font;
+    font-weight: 300;
+    font-size: 22px;
+  }
 }
 
 .text-row{
   flex-grow: 1;
+  margin-top: 15vh;
 }
- .continue-link{
+
+.continue-link{
   padding-bottom: 10px;
   transition: 0.3s;
   &:hover{
     font-size: 20px;
   }
- }
+}
+
+.logo{
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .intro-text{
+    width: 100vw;
+    h1{
+      font-family: $heading-font;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  .continue-link{
+    padding-bottom: 10px;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,96 @@
+.fs-card{
+  border: 1px solid $pink;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+  width: 100%;
+  background-color: rgba(204,38,102,0.2);
+  h1{
+    font-family: $heading-font;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  p{
+    font-family: $heading-font;
+    font-weight: 300;
+  }
+  &:hover{
+    box-shadow: 0 0 10px 5px rgba(204,38,102,0.2);
+  }
+}
+
+.wa-card{
+  border: 1px solid $green;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+  width: 100%;
+  background-color: rgba(178,216,33,0.2);
+  h1{
+    font-family: $heading-font;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  p{
+    font-family: $heading-font;
+    font-weight: 300;
+  }
+  &:hover{
+    box-shadow: 0 0 10px 5px rgba(178,216,33,0.2);
+  }
+}
+
+.wp-card{
+  border: 1px solid $orange;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+  width: 100%;
+  background-color: rgba(234,140,47,0.2);
+  h1{
+    font-family: $heading-font;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  p{
+    font-family: $heading-font;
+    font-weight: 300;
+  }
+  &:hover{
+    box-shadow: 0 0 10px 5px rgba(234,140,47,0.2);
+  }
+}
+
+.icon{
+  margin: 40px 0;
+}
+
+.stack{
+  color: $pink;
+  font-size: 60px;
+}
+
+.app{
+  color: $green;
+  font-size: 60px;
+}
+
+.page{
+  color: $orange;
+  font-size: 60px;
+}
+
+.content{
+  margin-top: 25px;
+}
+
+.skills-header{
+  color: white;
+  margin-top: 15px;
+}
