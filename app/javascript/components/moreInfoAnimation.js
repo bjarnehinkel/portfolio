@@ -4,11 +4,13 @@ const description = document.querySelector('.hover-content')
 
 const pynHover = () => {
   card.addEventListener('mouseover', (event) => {
-    heading.classList.add('hidden');
+    // heading.classList.add('hidden');
+    move('.planyournight-heading').set('display', 'none').end();
     description.classList.remove('hidden');
   });
   card.addEventListener('mouseout', (event) => {
-    description.classList.add('hidden');
+    // description.classList.add('hidden');
+    move('.hover-content').set('display', 'none').end();
     heading.classList.remove('hidden');
   });
 };
