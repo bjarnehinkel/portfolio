@@ -27,21 +27,15 @@
         <h1 class="skills-header">What do I offer?</h1>
       </div>
     </div>
-    <div class="row h-100 align-items-start">
+    <div class="row h-100 align-items-start info-cards">
       <div class="col-md-4 col-xs-12">
-        <div class="content d-flex flex-column align-items-center">
-          <%= render 'components/full-stack-card' %>
-        </div>
+        <%= render 'components/full-stack-card' %>
       </div>
       <div class="col-md-4 col-xs-12">
-        <div class="content d-flex flex-column align-items-center">
-          <%= render 'components/web-pages-card' %>
-        </div>
+        <%= render 'components/web-pages-card' %>
       </div>
       <div class="col-md-4 col-xs-12">
-        <div class="content d-flex flex-column align-items-center">
-          <%= render 'components/web-apps-card' %>
-        </div>
+        <%= render 'components/web-apps-card' %>
       </div>
     </div>
     <div class="row">
@@ -50,8 +44,10 @@
       </div>
     </div>
     <div class="row cards">
-      <div class="col-md-4 col-xs-12 p-0">
-        <%= render 'components/plan-your-night', class:'plan-your-night' %>
+      <div class="col-md-4 col-xs-12">
+        <%= render 'components/plan-your-night' %>
+      </div>
+      <div class="col-md-4 col-xs-12">
       </div>
     </div>
   </div>

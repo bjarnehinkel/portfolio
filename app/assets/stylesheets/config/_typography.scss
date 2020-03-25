@@ -7,6 +7,13 @@ a.light{
   }
 }
 
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
 p{
   margin: 0;
 }

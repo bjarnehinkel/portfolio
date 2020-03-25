@@ -1,11 +1,18 @@
 <div class="project-card plan-your-night">
-  <h1 class="planyournight-heading">PlanYourNight.xyz</h1>
-  <div class="hover-content h-100">
-    <div class="container content-organiser h-100">
-      <p>A tool to get to know Berlin's nightlife for people who don't know the city.</p>
-      <div class="visit-button mt-3">
-        <%= link_to 'Visit Website', 'https://www.planyournight.xyz', target:'_blank', class:'light' %>
-      </div>
+  <div class="container">
+    <h1 class="planyournight-heading">PlanYourNight.xyz</h1>
+  </div>
+  <div class="hover-content hidden h-100 w-100">
+    <div class="container content-organiser h-100 w-100">
+      <p>A tool to get to know Berlin's nightlife.</p>
+      <%= link_to 'http://www.planyournight.xyz', target:'_blank' do %>
+        <div class="visit-button mt-3">
+          <div class="d-flex align-items-center">
+            <p>Visit Page</p>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
