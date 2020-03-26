@@ -1,0 +1,74 @@
+.footer{
+  height: 200px;
+  width: 100vw;
+  background-color: $footer-grey;
+  display: block;
+}
+
+.icons{
+  margin-top: 25px;
+  width: 100%;
+}
+
+.icon-container{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  transition: 0.3s;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i{
+    font-size: 20px;
+  }
+  &.twitter{
+    &:hover{
+      color: $twitter;
+      border-color: $twitter;
+    }
+  }
+  &.linkedin{
+    &:hover{
+      color: $linkedin;
+      border-color: $linkedin;
+    }
+  }
+  &.github{
+    &:hover{
+      color: $github;
+      border-color: $github;
+    }
+  }
+  &.mail{
+    &:hover{
+      color: $mail;
+      border-color: $mail;
+    }
+  }
+}
+
+.made-by{
+  margin-top: 55px;
+  color: rgba(255,255,255,0.4);
+  p{
+    font-family: $body-font;
+    font-size: 14px;
+  }
+  i{
+    font-size: 18px;
+    padding: 0 4px;
+  }
+}
+
+.top{
+  color: $footer-grey;
+}
+
+.fade{
+  height: 50px;
+  background: linear-gradient(180deg, $body-grey, $footer-grey);
+  opacity: 1!important;
+}
