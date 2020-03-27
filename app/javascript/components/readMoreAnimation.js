@@ -64,7 +64,7 @@ const timing = {
   duration: 1000,
   fill: "forwards",
   iterations: 1,
-  delay: 5000,
+  delay: 4000,
   endDelay: 0
 };
 
