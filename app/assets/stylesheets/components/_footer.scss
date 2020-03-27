@@ -6,7 +6,6 @@
 }
 
 .icons{
-  margin-top: 25px;
   width: 100%;
 }
 
@@ -51,7 +50,6 @@
 }
 
 .made-by{
-  margin-top: 55px;
   color: rgba(255,255,255,0.4);
   p{
     font-family: $body-font;
@@ -60,6 +58,14 @@
   i{
     font-size: 18px;
     padding: 0 4px;
+  }
+}
+
+.contact-me{
+  color: rgba(255,255,255,0.4);
+  p{
+    font-family: $body-font;
+    font-size: 18px;
   }
 }
 
