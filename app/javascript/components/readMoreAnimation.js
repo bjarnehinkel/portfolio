@@ -61,7 +61,7 @@ const bounce = [
 ];
 
 const timing = {
-  duration: 1500,
+  duration: 1000,
   fill: "forwards",
   iterations: 1,
   delay: 2000,
@@ -69,9 +69,7 @@ const timing = {
 };
 
 const readMoreAnimation = () => {
-  banner.addEventListener('click' => {
-    button.animate(bounce, timing);
-  });
+  button.animate(bounce, timing);
 };
 
 export { readMoreAnimation };
