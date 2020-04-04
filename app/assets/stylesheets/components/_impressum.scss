@@ -1,0 +1,18 @@
+.impressum-content{
+  margin-top: 100px;
+  p{
+    margin-top: 10px;
+    color: white;
+  }
+}
+
+.container{
+  &.impressum{
+    flex-grow: 1;
+  }
+}
+
+.impressum-info{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

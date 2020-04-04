@@ -2,7 +2,7 @@
   height: 200px;
   width: 100vw;
   background-color: $footer-grey;
-  display: block;
+  display: inline-block;
 }
 
 .icons{
@@ -73,8 +73,17 @@
   color: $footer-grey;
 }
 
+.impressum-link{
+  p{
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgba(255,255,255,0.4)
+  }
+}
+
 .fade{
   height: 50px;
+  width: 100vw;
   background: linear-gradient(180deg, $body-grey, $footer-grey);
   opacity: 1!important;
 }

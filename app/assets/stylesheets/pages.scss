@@ -5,4 +5,11 @@ body{
 
 .whole-page{
   min-height: 100vh;
+  &.impressum{
+    display: flex;
+    flex-direction: column;
+  }
+}
+h1{
+  color: white;
 }
