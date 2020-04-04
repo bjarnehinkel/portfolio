@@ -73,11 +73,17 @@
   color: $footer-grey;
 }
 
-.impressum-link{
+.rechtliche-link{
   p{
     font-size: 12px;
     text-decoration: underline;
-    color: rgba(255,255,255,0.4)
+    margin: 0;
+    color: rgba(255,255,255,0.4);
+  }
+  i{
+    font-size: 5px;
+    margin: 0 5px;
+    color: rgba(255,255,255,0.4);
   }
 }
 
